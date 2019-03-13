@@ -1,0 +1,65 @@
+.header{
+	background-image: url('james.png');
+	text-align: center;
+	padding: 40px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.header h1{
+	color: #ff1a00;
+	font-size: 90px;
+	font-family: big truck;
+}
+.header p{
+	color: #ff1a00;
+	font-size: 20px;
+	font-family: comic sans ms;
+}
+.menu{
+	background-color: black;
+	overflow: hidden;
+}
+.menu a{
+	float: left;
+	display: block;
+	color: purple;
+	text-align: center;
+	padding: 16px;
+}
+.menu a:hover{
+  color: skyblue;
+  background-color: yellow;
+}
+.izquierda{
+	float: left;
+	width: 70%;
+}
+.item{
+	background-color: skyblue;
+	width: 100%;
+	padding: 40px;
+}
+.imagen{
+	width: 400px;
+}
+body{
+	background-color: purple;
+}
+.derecha{
+	float: left;
+	width: 20%;
+	background-color: white;
+	padding: 20px;
+}
+.contenido{
+	content:"";
+	display: table;
+	clear: both;
+}
+.footer{
+	padding: 20px;
+	text-align: center;
+	background-color: pink;
+	margin-top: 20px;
+}
