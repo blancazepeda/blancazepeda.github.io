@@ -30,7 +30,7 @@
           <ul class="dropdown-menu">
             <li><a href="horas.html">Popular 24 Horas</a></li>
             <li><a href="arte.html">Popular 1 Semana</a></li>
-            <li><a href="videos.html">Popular 1 Mes</a></li>
+            <li><a href="videos.html">Ppopular 1 Mes</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="comprar.html">Comprar Arte</a></li>
           </ul>
@@ -57,25 +57,36 @@
 </nav>
 <!--Termina la barra de menu-->
 
- <form>
-  <div class="col-xs-12">
+<!--Inicia Registro-->
+<form>
+    <label for="exampleInputPassword1">Username</label>
+  <input type="text" class="form-control">
+
   <div class="form-group">
     <label for="exampleInputEmail1">Email</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+    <input type="email" class="form-control" id="exampleInputEmail1">
   </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Contraseña</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
-  </div>
-  <button type="submit" class="btn btn-default">Iniciar</button>
-</div>
-</form>
 
-<!--Pie de la pagina-->
-<footer class="text-center">
-	<hr>
-	Desarrollo de pág. web &copy; 2019
-</footer>
- <script src="js/bootstrap.js"></script>
-</body>
-</html>
+  <label for="exampleInputPassword1">Retype Email Address</label>
+  <input type="text" class="form-control">
+
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox1" value="option1">Hombre 
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox2" value="option2">Mujer 
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox3" value="option3">Otro
+</label>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox">Acepto los Terminos
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Registrarme</button>
+</form>
